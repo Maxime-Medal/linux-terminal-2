@@ -1,0 +1,49 @@
+maxime@MBP-de-Maxime quest % pwd
+
+/Users/maxime/quest
+maxime@MBP-de-Maxime quest % ls
+
+Shell
+maxime@MBP-de-Maxime quest % ls -R
+
+Shell
+
+./Shell:
+planets		planets.zip
+
+./Shell/planets:
+fictional	inhabited	real
+
+./Shell/planets/fictional:
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg
+
+./Shell/planets/inhabited:
+earth.jpeg	mars.jpeg	saturn.jpeg	venus.jpeg
+
+./Shell/planets/real:
+gas-giants	terrestrial
+
+./Shell/planets/real/gas-giants:
+jupiter.jpeg	neptune.jpeg	uranus.jpeg
+
+./Shell/planets/real/terrestrial:
+mercury.jpeg
+maxime@MBP-de-Maxime quest % history
+
+  193  ls
+  194  rm -r dwraf-planets
+  195  rm -r dwraf-planets/
+  196  rm -r dwarf-planets/
+  197  ls
+  198  ls -R
+  199  pwd
+  200  cd ~/
+  201  pwd
+  202  ls -r
+  203  ls -R
+  204  ls
+  205  cd quest
+  206  pwd
+  207  ls
+  208  ls -R
+maxime@MBP-de-Maxime quest % 
